@@ -8,6 +8,7 @@ from io import BytesIO
 from glob import glob
 from PIL import Image, ImageEnhance
 
+sys.path.insert(1, "C:\Users\HP\AppData\Roaming\Python\Python310\site-packages\streamlit_option_menu")
 
 import streamlit as st
 from streamlit_option_menu import option_menu
